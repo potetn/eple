@@ -194,15 +194,39 @@ if valg =="B":
             print("tror det er på tide og gå ut")
             valg = input("ut.W")
             if valg =="W":
-              print("du går ut der han venter på deg")
+              print("du går ut der han venter på deg.")
 
 
 print("hei hvorfor tokk det så lang tid?")
 
 
 
-print("hvem bryr seg kom")
+print("hvem bryr seg kom.")
 
+print("du er på hvei til bruen i byen men det er et hul i den hvordan skal vi kome os over?")
+valg = input("tau A:->")
+if valg =="A":
+
+    if tau >0:
+        print("du bruker tauet og klatret over.")
+        tau -= 1 
+        print("tau: ", tau)
+
+        print("det hvar bra du hade den med.")
+        print("fortset fremover.")
+    
+    if tau <0:
+        print("hvel vi prøvde kom la oss gå til bak... ")
+        print("aldri si aldri! roper han mens han løper mot hulet for ok hoppe over han feila og falt ned.")
+        print("du står der og prodiserer de du netopp så. plutselig hørte du stemen hans. det går bra det er ikke så høyt og vannet er grunt vi kan bare vase åver.")
+
+print("vi fortseter in i skogen")
+
+
+
+
+
+        
 
 
 
